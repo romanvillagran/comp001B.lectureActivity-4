@@ -1,0 +1,48 @@
+body {
+    background-color: #8181e3;
+}
+h1 {
+    background-color: #7474cc;
+
+}
+
+
+
+ul {
+    list-style: none;
+    background: ;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+ul li ul.drop li {
+    display: block;
+}
+
+ul li ul.drop {
+    width: 100%;
+    background: rgb(198, 156, 92);
+    position: absolute;
+    display: none;
+}
+
+ul li a:hover {
+    background-color: #5A5A9E;
+}
+
+ul li:hover ul.drop {
+    display: block;
+}
+
