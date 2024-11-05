@@ -2,7 +2,7 @@ body {
 background-color: #7474cc;
 }
 h1 {
-    background-color: #6767B5;
+    background-color: #8D8DE5;
     border-radius: 5px;
 }
 
@@ -53,4 +53,5 @@ ul li:hover ul.drop {
     border: 2px solid lightblue; 
     margin: 10px 0; 
     border-radius: 10px;
+    background-color: #8D8DE5;
 }
